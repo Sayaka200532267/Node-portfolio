@@ -2,7 +2,7 @@
 # 🚀 Portfolio Website (Node.js & Express)
 
 小原さやか（Sayaka Ohara）のパーソナルポートフォリオサイトです。
-サイトURL
+サイトURL:https://node-portfolio-cyan.vercel.app/
 
 技術力だけでなく、GA4やMarTech、データ分析といったビジネス・マーケティング寄りの視点を掛け合わせた課題解決力をアピールする設計になっています。
 
