@@ -1,0 +1,124 @@
+/* ==========================================
+   1. Base Styles & Layout
+   ========================================== */
+html, body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* ワンページ全体が自然にスクロールするように justify-content: center は削除しました */
+}
+
+main {
+  flex: 1;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+/* ==========================================
+   2. Header & Navigation
+   ========================================== */
+header {
+  background-color: #5097e3;
+  position: relative;
+  z-index: 1000;
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px; 
+}
+
+/* ==========================================
+   3. Sections & Portfolio Cards
+   ========================================== */
+section {
+  position: relative;
+  border-radius: 16px;
+  margin: 40px auto;
+  padding: 30px;
+  color: #fff;
+}
+
+.portfolio-card {
+  height: 100%;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+.portfolio-card ul {
+  padding-left: 20px;
+  line-height: 2;
+  font-size: 15px;
+}
+
+.portfolio-card li {
+  margin-bottom: 8px;
+  list-style: disc; /* リストの点はしっかりと表示させる */
+}
+
+.portfolio-card h4 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #222;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 8px;
+}
+
+.portfolio-card p {
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+/* ==========================================
+   4. Footer
+   ========================================== */
+footer {
+  background-color: #5097e3;
+  position: relative;
+  z-index: 1000;
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer i {
+  font-size: 20px;
+  margin-right: 6px;
+}
